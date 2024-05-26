@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0240EF9CA74C552A666B3C6A /* Pods_YaMapTestVictory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */; };
 		33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7A2C0332A000499B43 /* AppDelegate.swift */; };
 		33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */; };
 		33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7E2C0332A000499B43 /* ViewController.swift */; };
@@ -24,6 +25,9 @@
 		33BB2F832C0332A200499B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BB2F862C0332A200499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BB2F882C0332A200499B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E387F4842A3FBA7A053C224A /* Pods-YaMapTestVictory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.release.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.release.xcconfig"; sourceTree = "<group>"; };
+		F57476F3664ABAFB3A074DEE /* Pods-YaMapTestVictory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.debug.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.debug.xcconfig"; sourceTree = "<group>"; };
+		F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaMapTestVictory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0240EF9CA74C552A666B3C6A /* Pods_YaMapTestVictory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19288A2C0FE5B9EC1C40B90C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57476F3664ABAFB3A074DEE /* Pods-YaMapTestVictory.debug.xcconfig */,
+				E387F4842A3FBA7A053C224A /* Pods-YaMapTestVictory.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B277A79BAD4A5D985A08CA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		33BB2F6E2C0332A000499B43 = {
 			isa = PBXGroup;
 			children = (
 				33BB2F792C0332A000499B43 /* YaMapTestVictory */,
 				33BB2F782C0332A000499B43 /* Products */,
+				19288A2C0FE5B9EC1C40B90C /* Pods */,
+				1B277A79BAD4A5D985A08CA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BB2F8B2C0332A200499B43 /* Build configuration list for PBXNativeTarget "YaMapTestVictory" */;
 			buildPhases = (
+				A012EFD026E02344C0AAAA0F /* [CP] Check Pods Manifest.lock */,
 				33BB2F732C0332A000499B43 /* Sources */,
 				33BB2F742C0332A000499B43 /* Frameworks */,
 				33BB2F752C0332A000499B43 /* Resources */,
+				A8CEEB0A2830B7D64311141F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A012EFD026E02344C0AAAA0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YaMapTestVictory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CEEB0A2830B7D64311141F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33BB2F732C0332A000499B43 /* Sources */ = {
@@ -203,7 +271,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +334,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +355,7 @@
 		};
 		33BB2F8C2C0332A200499B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57476F3664ABAFB3A074DEE /* Pods-YaMapTestVictory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +384,7 @@
 		};
 		33BB2F8D2C0332A200499B43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E387F4842A3FBA7A053C224A /* Pods-YaMapTestVictory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
