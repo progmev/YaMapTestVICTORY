@@ -10,7 +10,7 @@
 		0240EF9CA74C552A666B3C6A /* Pods_YaMapTestVictory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */; };
 		33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7A2C0332A000499B43 /* AppDelegate.swift */; };
 		33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */; };
-		33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7E2C0332A000499B43 /* ViewController.swift */; };
+		33BB2F7F2C0332A000499B43 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7E2C0332A000499B43 /* MapViewController.swift */; };
 		33BB2F822C0332A000499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F812C0332A000499B43 /* Base */; };
 		33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F832C0332A200499B43 /* Assets.xcassets */; };
 		33BB2F872C0332A200499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F862C0332A200499B43 /* Base */; };
@@ -21,7 +21,7 @@
 		33BB2F772C0332A000499B43 /* YaMapTestVictory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaMapTestVictory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BB2F7A2C0332A000499B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33BB2F7E2C0332A000499B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33BB2F7E2C0332A000499B43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		33BB2F812C0332A000499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33BB2F832C0332A200499B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BB2F862C0332A200499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,8 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				33BB2F8E2C03373800499B43 /* Common */,
-				33BB2F7E2C0332A000499B43 /* ViewController.swift */,
-				33BB2F802C0332A000499B43 /* Main.storyboard */,
+				33BB2F942C033A0800499B43 /* MapView */,
 				33BB2F882C0332A200499B43 /* Info.plist */,
 			);
 			path = YaMapTestVictory;
@@ -124,6 +123,15 @@
 				33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		33BB2F942C033A0800499B43 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2F7E2C0332A000499B43 /* MapViewController.swift */,
+				33BB2F802C0332A000499B43 /* Main.storyboard */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */,
+				33BB2F7F2C0332A000499B43 /* MapViewController.swift in Sources */,
 				33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */,
 				33BB2F922C03376900499B43 /* ApiKeyStorage.swift in Sources */,
 				33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */,
