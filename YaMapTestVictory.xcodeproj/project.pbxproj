@@ -8,25 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0240EF9CA74C552A666B3C6A /* Pods_YaMapTestVictory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */; };
+		33AE29222C03482500C51B02 /* PointsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE29212C03482500C51B02 /* PointsStorage.swift */; };
 		33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7A2C0332A000499B43 /* AppDelegate.swift */; };
 		33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */; };
 		33BB2F7F2C0332A000499B43 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7E2C0332A000499B43 /* MapViewController.swift */; };
-		33BB2F822C0332A000499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F812C0332A000499B43 /* Base */; };
 		33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F832C0332A200499B43 /* Assets.xcassets */; };
 		33BB2F872C0332A200499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F862C0332A200499B43 /* Base */; };
 		33BB2F922C03376900499B43 /* ApiKeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F912C03376900499B43 /* ApiKeyStorage.swift */; };
+		33BB2F962C033BBD00499B43 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F952C033BBD00499B43 /* AlertPresenter.swift */; };
+		33BB2F982C033BEA00499B43 /* MapInputListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F972C033BEA00499B43 /* MapInputListener.swift */; };
+		33BB2F9A2C033C0100499B43 /* RoutingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F992C033C0100499B43 /* RoutingViewModel.swift */; };
+		33BB2F9C2C033C2200499B43 /* RoutePolylineStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F9B2C033C2200499B43 /* RoutePolylineStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33AE29212C03482500C51B02 /* PointsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsStorage.swift; sourceTree = "<group>"; };
 		33BB2F772C0332A000499B43 /* YaMapTestVictory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaMapTestVictory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BB2F7A2C0332A000499B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		33BB2F7E2C0332A000499B43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		33BB2F812C0332A000499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33BB2F832C0332A200499B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BB2F862C0332A200499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BB2F882C0332A200499B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33BB2F912C03376900499B43 /* ApiKeyStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeyStorage.swift; sourceTree = "<group>"; };
+		33BB2F952C033BBD00499B43 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		33BB2F972C033BEA00499B43 /* MapInputListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInputListener.swift; sourceTree = "<group>"; };
+		33BB2F992C033C0100499B43 /* RoutingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewModel.swift; sourceTree = "<group>"; };
+		33BB2F9B2C033C2200499B43 /* RoutePolylineStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePolylineStyles.swift; sourceTree = "<group>"; };
 		E387F4842A3FBA7A053C224A /* Pods-YaMapTestVictory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.release.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.release.xcconfig"; sourceTree = "<group>"; };
 		F57476F3664ABAFB3A074DEE /* Pods-YaMapTestVictory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.debug.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.debug.xcconfig"; sourceTree = "<group>"; };
 		F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaMapTestVictory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				33BB2F912C03376900499B43 /* ApiKeyStorage.swift */,
+				33AE29212C03482500C51B02 /* PointsStorage.swift */,
+				33BB2F952C033BBD00499B43 /* AlertPresenter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -129,7 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				33BB2F7E2C0332A000499B43 /* MapViewController.swift */,
-				33BB2F802C0332A000499B43 /* Main.storyboard */,
+				33BB2F992C033C0100499B43 /* RoutingViewModel.swift */,
+				33BB2F972C033BEA00499B43 /* MapInputListener.swift */,
+				33BB2F9B2C033C2200499B43 /* RoutePolylineStyles.swift */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
@@ -196,7 +208,6 @@
 			files = (
 				33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */,
 				33BB2F872C0332A200499B43 /* Base in Resources */,
-				33BB2F822C0332A000499B43 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,24 +260,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BB2F962C033BBD00499B43 /* AlertPresenter.swift in Sources */,
 				33BB2F7F2C0332A000499B43 /* MapViewController.swift in Sources */,
 				33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */,
+				33BB2F9C2C033C2200499B43 /* RoutePolylineStyles.swift in Sources */,
 				33BB2F922C03376900499B43 /* ApiKeyStorage.swift in Sources */,
 				33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */,
+				33BB2F9A2C033C0100499B43 /* RoutingViewModel.swift in Sources */,
+				33AE29222C03482500C51B02 /* PointsStorage.swift in Sources */,
+				33BB2F982C033BEA00499B43 /* MapInputListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33BB2F802C0332A000499B43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33BB2F812C0332A000499B43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,7 +422,6 @@
 				INFOPLIST_FILE = YaMapTestVictory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,7 +450,6 @@
 				INFOPLIST_FILE = YaMapTestVictory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
