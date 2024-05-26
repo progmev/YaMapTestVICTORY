@@ -14,6 +14,7 @@
 		33BB2F822C0332A000499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F812C0332A000499B43 /* Base */; };
 		33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F832C0332A200499B43 /* Assets.xcassets */; };
 		33BB2F872C0332A200499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F862C0332A200499B43 /* Base */; };
+		33BB2F922C03376900499B43 /* ApiKeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F912C03376900499B43 /* ApiKeyStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		33BB2F832C0332A200499B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BB2F862C0332A200499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BB2F882C0332A200499B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BB2F912C03376900499B43 /* ApiKeyStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeyStorage.swift; sourceTree = "<group>"; };
 		E387F4842A3FBA7A053C224A /* Pods-YaMapTestVictory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.release.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.release.xcconfig"; sourceTree = "<group>"; };
 		F57476F3664ABAFB3A074DEE /* Pods-YaMapTestVictory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaMapTestVictory.debug.xcconfig"; path = "Target Support Files/Pods-YaMapTestVictory/Pods-YaMapTestVictory.debug.xcconfig"; sourceTree = "<group>"; };
 		F774E080D322BF2C631C28A0 /* Pods_YaMapTestVictory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaMapTestVictory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,15 +82,48 @@
 		33BB2F792C0332A000499B43 /* YaMapTestVictory */ = {
 			isa = PBXGroup;
 			children = (
-				33BB2F7A2C0332A000499B43 /* AppDelegate.swift */,
-				33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */,
+				33BB2F8E2C03373800499B43 /* Common */,
 				33BB2F7E2C0332A000499B43 /* ViewController.swift */,
 				33BB2F802C0332A000499B43 /* Main.storyboard */,
-				33BB2F832C0332A200499B43 /* Assets.xcassets */,
-				33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */,
 				33BB2F882C0332A200499B43 /* Info.plist */,
 			);
 			path = YaMapTestVictory;
+			sourceTree = "<group>";
+		};
+		33BB2F8E2C03373800499B43 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2F932C03380A00499B43 /* Resources */,
+				33BB2F902C03375B00499B43 /* Utils */,
+				33BB2F8F2C03374200499B43 /* AppLifecycle */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		33BB2F8F2C03374200499B43 /* AppLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2F7A2C0332A000499B43 /* AppDelegate.swift */,
+				33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */,
+			);
+			path = AppLifecycle;
+			sourceTree = "<group>";
+		};
+		33BB2F902C03375B00499B43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2F912C03376900499B43 /* ApiKeyStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33BB2F932C03380A00499B43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33BB2F832C0332A200499B43 /* Assets.xcassets */,
+				33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +243,7 @@
 			files = (
 				33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */,
 				33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */,
+				33BB2F922C03376900499B43 /* ApiKeyStorage.swift in Sources */,
 				33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +305,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -288,6 +325,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MAPKIT_API_KEY = "d57b6e40-e882-4fa4-8cb1-cf4fb821949b";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -332,6 +370,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -345,6 +384,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MAPKIT_API_KEY = "d57b6e40-e882-4fa4-8cb1-cf4fb821949b";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
