@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		331B60A82C0328980018A411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B60A72C0328980018A411 /* AppDelegate.swift */; };
-		331B60AA2C0328980018A411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B60A92C0328980018A411 /* SceneDelegate.swift */; };
-		331B60AC2C0328980018A411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B60AB2C0328980018A411 /* ViewController.swift */; };
-		331B60AF2C0328980018A411 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 331B60AE2C0328980018A411 /* Base */; };
-		331B60B12C03289A0018A411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331B60B02C03289A0018A411 /* Assets.xcassets */; };
-		331B60B42C03289A0018A411 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 331B60B32C03289A0018A411 /* Base */; };
+		33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7A2C0332A000499B43 /* AppDelegate.swift */; };
+		33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */; };
+		33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2F7E2C0332A000499B43 /* ViewController.swift */; };
+		33BB2F822C0332A000499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F812C0332A000499B43 /* Base */; };
+		33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F832C0332A200499B43 /* Assets.xcassets */; };
+		33BB2F872C0332A200499B43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2F862C0332A200499B43 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		331B60A42C0328980018A411 /* YaMapTestVICTORY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaMapTestVICTORY.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		331B60A72C0328980018A411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		331B60A92C0328980018A411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		331B60AB2C0328980018A411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		331B60AE2C0328980018A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		331B60B02C03289A0018A411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		331B60B32C03289A0018A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		331B60B52C03289A0018A411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BB2F772C0332A000499B43 /* YaMapTestVictory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaMapTestVictory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BB2F7A2C0332A000499B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33BB2F7E2C0332A000499B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33BB2F812C0332A000499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33BB2F832C0332A200499B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33BB2F862C0332A200499B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33BB2F882C0332A200499B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		331B60A12C0328980018A411 /* Frameworks */ = {
+		33BB2F742C0332A000499B43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		331B609B2C0328980018A411 = {
+		33BB2F6E2C0332A000499B43 = {
 			isa = PBXGroup;
 			children = (
-				331B60A62C0328980018A411 /* YaMapTestVICTORY */,
-				331B60A52C0328980018A411 /* Products */,
+				33BB2F792C0332A000499B43 /* YaMapTestVictory */,
+				33BB2F782C0332A000499B43 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		331B60A52C0328980018A411 /* Products */ = {
+		33BB2F782C0332A000499B43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				331B60A42C0328980018A411 /* YaMapTestVICTORY.app */,
+				33BB2F772C0332A000499B43 /* YaMapTestVictory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		331B60A62C0328980018A411 /* YaMapTestVICTORY */ = {
+		33BB2F792C0332A000499B43 /* YaMapTestVictory */ = {
 			isa = PBXGroup;
 			children = (
-				331B60A72C0328980018A411 /* AppDelegate.swift */,
-				331B60A92C0328980018A411 /* SceneDelegate.swift */,
-				331B60AB2C0328980018A411 /* ViewController.swift */,
-				331B60AD2C0328980018A411 /* Main.storyboard */,
-				331B60B02C03289A0018A411 /* Assets.xcassets */,
-				331B60B22C03289A0018A411 /* LaunchScreen.storyboard */,
-				331B60B52C03289A0018A411 /* Info.plist */,
+				33BB2F7A2C0332A000499B43 /* AppDelegate.swift */,
+				33BB2F7C2C0332A000499B43 /* SceneDelegate.swift */,
+				33BB2F7E2C0332A000499B43 /* ViewController.swift */,
+				33BB2F802C0332A000499B43 /* Main.storyboard */,
+				33BB2F832C0332A200499B43 /* Assets.xcassets */,
+				33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */,
+				33BB2F882C0332A200499B43 /* Info.plist */,
 			);
-			path = YaMapTestVICTORY;
+			path = YaMapTestVictory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		331B60A32C0328980018A411 /* YaMapTestVICTORY */ = {
+		33BB2F762C0332A000499B43 /* YaMapTestVictory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 331B60B82C03289A0018A411 /* Build configuration list for PBXNativeTarget "YaMapTestVICTORY" */;
+			buildConfigurationList = 33BB2F8B2C0332A200499B43 /* Build configuration list for PBXNativeTarget "YaMapTestVictory" */;
 			buildPhases = (
-				331B60A02C0328980018A411 /* Sources */,
-				331B60A12C0328980018A411 /* Frameworks */,
-				331B60A22C0328980018A411 /* Resources */,
+				33BB2F732C0332A000499B43 /* Sources */,
+				33BB2F742C0332A000499B43 /* Frameworks */,
+				33BB2F752C0332A000499B43 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YaMapTestVICTORY;
-			productName = YaMapTestVICTORY;
-			productReference = 331B60A42C0328980018A411 /* YaMapTestVICTORY.app */;
+			name = YaMapTestVictory;
+			productName = YaMapTestVictory;
+			productReference = 33BB2F772C0332A000499B43 /* YaMapTestVictory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		331B609C2C0328980018A411 /* Project object */ = {
+		33BB2F6F2C0332A000499B43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					331B60A32C0328980018A411 = {
+					33BB2F762C0332A000499B43 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 331B609F2C0328980018A411 /* Build configuration list for PBXProject "YaMapTestVICTORY" */;
+			buildConfigurationList = 33BB2F722C0332A000499B43 /* Build configuration list for PBXProject "YaMapTestVictory" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 331B609B2C0328980018A411;
-			productRefGroup = 331B60A52C0328980018A411 /* Products */;
+			mainGroup = 33BB2F6E2C0332A000499B43;
+			productRefGroup = 33BB2F782C0332A000499B43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				331B60A32C0328980018A411 /* YaMapTestVICTORY */,
+				33BB2F762C0332A000499B43 /* YaMapTestVictory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		331B60A22C0328980018A411 /* Resources */ = {
+		33BB2F752C0332A000499B43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331B60B12C03289A0018A411 /* Assets.xcassets in Resources */,
-				331B60B42C03289A0018A411 /* Base in Resources */,
-				331B60AF2C0328980018A411 /* Base in Resources */,
+				33BB2F842C0332A200499B43 /* Assets.xcassets in Resources */,
+				33BB2F872C0332A200499B43 /* Base in Resources */,
+				33BB2F822C0332A000499B43 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		331B60A02C0328980018A411 /* Sources */ = {
+		33BB2F732C0332A000499B43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331B60AC2C0328980018A411 /* ViewController.swift in Sources */,
-				331B60A82C0328980018A411 /* AppDelegate.swift in Sources */,
-				331B60AA2C0328980018A411 /* SceneDelegate.swift in Sources */,
+				33BB2F7F2C0332A000499B43 /* ViewController.swift in Sources */,
+				33BB2F7B2C0332A000499B43 /* AppDelegate.swift in Sources */,
+				33BB2F7D2C0332A000499B43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		331B60AD2C0328980018A411 /* Main.storyboard */ = {
+		33BB2F802C0332A000499B43 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				331B60AE2C0328980018A411 /* Base */,
+				33BB2F812C0332A000499B43 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		331B60B22C03289A0018A411 /* LaunchScreen.storyboard */ = {
+		33BB2F852C0332A200499B43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				331B60B32C03289A0018A411 /* Base */,
+				33BB2F862C0332A200499B43 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		331B60B62C03289A0018A411 /* Debug */ = {
+		33BB2F892C0332A200499B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		331B60B72C03289A0018A411 /* Release */ = {
+		33BB2F8A2C0332A200499B43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +285,7 @@
 			};
 			name = Release;
 		};
-		331B60B92C03289A0018A411 /* Debug */ = {
+		33BB2F8C2C0332A200499B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YF6HND7PM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YaMapTestVICTORY/Info.plist;
+				INFOPLIST_FILE = YaMapTestVictory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = by.SwiftUI.YaMapTestVICTORY;
+				PRODUCT_BUNDLE_IDENTIFIER = by.SwiftUI.YaMapVictoryTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		331B60BA2C03289A0018A411 /* Release */ = {
+		33BB2F8D2C0332A200499B43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,7 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YF6HND7PM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YaMapTestVICTORY/Info.plist;
+				INFOPLIST_FILE = YaMapTestVictory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = by.SwiftUI.YaMapTestVICTORY;
+				PRODUCT_BUNDLE_IDENTIFIER = by.SwiftUI.YaMapVictoryTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,25 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		331B609F2C0328980018A411 /* Build configuration list for PBXProject "YaMapTestVICTORY" */ = {
+		33BB2F722C0332A000499B43 /* Build configuration list for PBXProject "YaMapTestVictory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				331B60B62C03289A0018A411 /* Debug */,
-				331B60B72C03289A0018A411 /* Release */,
+				33BB2F892C0332A200499B43 /* Debug */,
+				33BB2F8A2C0332A200499B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		331B60B82C03289A0018A411 /* Build configuration list for PBXNativeTarget "YaMapTestVICTORY" */ = {
+		33BB2F8B2C0332A200499B43 /* Build configuration list for PBXNativeTarget "YaMapTestVictory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				331B60B92C03289A0018A411 /* Debug */,
-				331B60BA2C03289A0018A411 /* Release */,
+				33BB2F8C2C0332A200499B43 /* Debug */,
+				33BB2F8D2C0332A200499B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 331B609C2C0328980018A411 /* Project object */;
+	rootObject = 33BB2F6F2C0332A000499B43 /* Project object */;
 }

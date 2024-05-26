@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  YaMapTestVICTORY
+//  YaMapTestVictory
 //
-//  Created by papa on 26.05.24.
+//  Created by MEV on 26.05.24.
 //
 
 import UIKit
